@@ -1,0 +1,2385 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilo/estiloprojeto.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="topo">
+
+    <img src="https://pipprogramaorienta.com.br/img/logo_orienta.png">
+
+    </div>
+
+    <div id="tabela">
+
+</br>
+</br>
+</br>
+
+
+<form method="POST" action="pessoa/cadastro.php" >
+        <table>
+          <tr>
+            <td>
+            </br>
+              <h3>Inventário de personalidade ocupacional</h3>
+            </td>
+          </tr>
+          <tr>
+            <td>
+                          <h4>Preencha os campos abaixo para realizar sua 
+            </br>atividade de autoconhecimento.</h4>
+            </td>
+            </td>
+          </tr>
+                <tr> 
+                    <td>
+          </br>
+          </br>                
+                    <label for="nome" width="10px">
+                     Nome*</label></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text"
+                        name="nome"
+                        id="nome"
+                        size="60"
+                        max="30"
+                        class="form_text"
+                        required/>
+                    </td>
+                </tr>
+                <tr> 
+                    <td>
+                    </br>
+                    <label for="email">Email*</label></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text"
+                        name="email"
+                        id="email"
+                        size="60"
+                        max="40"
+                        class="form_text"
+                        required/>
+                    </td>
+                </tr>
+                <tr> 
+                    <td>
+                    </br>
+                    <label for="dob">Data de Nascimento*</label></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="date"
+                        name="dob"
+                        id="dob"
+                        class="form_text"
+                        required/>
+                    </td>
+                </tr>
+                <tr> 
+                    <td>
+                    </br>
+                    <label for="identidade">Identidade (RG)*</label></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text"
+                        name="identidade"
+                        id="identidade"
+                        size="60"
+                        max="30"
+                        class="form_text"
+                        required/>
+                    </td>
+                </tr>
+                <tr> 
+                    <td>
+                    </br>
+                    <label for="celular">Celular*</label></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="tel"
+                        name="celular"
+                        id="celular"
+                        size="60"
+                        max="15"
+                        class="form_text"
+                        required/>
+                    </td>
+                </tr>
+                <tr> 
+                    <td>
+                    </br>
+                    <label for="telefone">Telefone Residencial*</label></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="tel"
+                        name="telefone"
+                        id="telefone"
+                        size="60"
+                        max="15"
+                        class="form_text"
+                        required/>
+                    </td>
+                </tr>
+                <tr> 
+                    <td>
+                    </br>
+                    <label for="endereço">Endereço*</label></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text"
+                        name="Endereço"
+                        id="Endereço"
+                        size="60"
+                        max="50"
+                        class="form_text"
+                        required/>
+                    </td>
+                </tr>
+                <tr> 
+                    <td>
+                    </br>
+                    <label for="numero">Numero*</label></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text"
+                        name="numero"
+                        id="numero"
+                        size="60"
+                        max="5"
+                        class="form_text"
+                        required/>
+                    </td>
+                </tr>
+                <tr> 
+                    <td>
+                    </br>
+                    <label for="comp">Complemento</label></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text"
+                        name="comp"
+                        id="comp"
+                        size="60"
+                        max="30"
+                        class="form_text"
+                        >
+                    </td>
+                </tr>
+                <tr> 
+                    <td>
+                    </br>
+                    <label for="bairro">Bairro*</label></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text"
+                        name="bairro"
+                        id="bairro"
+                        size="60"
+                        max="30"
+                        class="form_text"
+                        data-required/>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                    </br>
+                    <label for="estado">Estado*</label></td>
+                    </tr>
+                    <tr>
+                        <td>
+                    <select
+                      id="estado"
+                      data-use-type="STRING"
+                      name="uf"
+                      required="required"
+                    >
+                      <option value="">
+                        Selecione
+                      </option>
+                      
+                        <option value="AC">AC</option>
+                      
+                        <option value="AL">AL</option>
+                      
+                        <option value="AP">AP</option>
+                      
+                        <option value="AM">AM</option>
+                      
+                        <option value="BA">BA</option>
+                      
+                        <option value="CE">CE</option>
+                      
+                        <option value="DF">DF</option>
+                      
+                        <option value="ES">ES</option>
+                      
+                        <option value="GO">GO</option>
+                      
+                        <option value="MA">MA</option>
+                      
+                        <option value="MT">MT</option>
+                      
+                        <option value="MS">MS</option>
+                      
+                        <option value="MG">MG</option>
+                      
+                        <option value="PA">PA</option>
+                      
+                        <option value="PB">PB</option>
+                      
+                        <option value="PR">PR</option>
+                      
+                        <option value="PE">PE</option>
+                      
+                        <option value="PI">PI</option>
+                      
+                        <option value="RJ">RJ</option>
+                      
+                        <option value="RN">RN</option>
+                      
+                        <option value="RS">RS</option>
+                      
+                        <option value="RO">RO</option>
+                      
+                        <option value="RR">RR</option>
+                      
+                        <option value="SC">SC</option>
+                      
+                        <option value="SP">SP</option>
+                      
+                        <option value="SE">SE</option>
+                      
+                        <option value="TO">TO</option>
+
+                      
+                    </select>
+
+                    </td>
+                    </tr>
+
+                    <tr> 
+                        <td>
+                        </br>
+                        <label for="cidade">Cidade*</label></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text"
+                            name="cidade"
+                            id="cidade"
+                            size="60"
+                            max="20"
+                            class="form_text"
+                            required/>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                        </br>
+                        <label for="colegio">Nome do Colégio*</label></td>
+                        </tr>
+                        <tr>
+                            <td>
+                        <select
+                          id="colegio"
+                          data-use-type="STRING"
+                          name="colegio"
+                          required="required"
+                        >
+                          <option value="">
+                            Selecione
+                          </option>
+
+      <option value="CE MOURA JARDIM">CE MOURA JARDIM</option>
+    
+      <option value="CE AUGUSTO MEYER">CE AUGUSTO MEYER</option>
+    
+      <option value="COLEGIO ESTADUAL DOM PEDRO I">COLEGIO ESTADUAL DOM PEDRO I</option>
+    
+      <option value="COLEGIO ESTADUAL DOM PEDRO II">COLEGIO ESTADUAL DOM PEDRO II</option>
+    
+      <option value="COLEGIO ESTADUAL DOM PEDRO III">COLEGIO ESTADUAL DOM PEDRO III</option>
+    
+      <option value="COLEGIO ESTADUAL DOM PEDRO IV">COLEGIO ESTADUAL DOM PEDRO IV</option>
+    
+      <option value="COLEGIO ESTADUAL DOM PEDRO V">COLEGIO ESTADUAL DOM PEDRO V</option>
+    
+      <option value="COLEGIO ESTADUAL DOM PEDRO VI">COLEGIO ESTADUAL DOM PEDRO VI</option>
+    
+      <option value="COLEGIO ESTADUAL DOM PEDRO VII">COLEGIO ESTADUAL DOM PEDRO VII</option>
+    
+      <option value="COLEGIO ESTADUAL DOM PEDRO VIII">COLEGIO ESTADUAL DOM PEDRO VIII</option>
+    
+      <option value="COLEGIO ESTADUAL DOM PEDRO X">COLEGIO ESTADUAL DOM PEDRO X</option>
+    
+      <option value="COLEGIO BATISTA">COLEGIO BATISTA</option>
+    
+      <option value="COLEGIO EST ALCEBIADES AZEREDO DOS SANTOS">COLEGIO EST ALCEBIADES AZEREDO DOS SANTOS</option>
+    
+      <option value="COLEGIO ESTADUAL ANTONIO DE CASTRO ALVES">COLEGIO ESTADUAL ANTONIO DE CASTRO ALVES</option>
+    
+      <option value="OTAVIO DE MOURA JARDIM">OTAVIO DE MOURA JARDIM</option>
+    
+      <option value="ESCOLA FUNDAMENTAL BRENO GUIMARÃES">ESCOLA FUNDAMENTAL BRENO GUIMARÃES</option>
+    
+      <option value="COLEGIO ESTADUAL RUBEN BERTA">COLEGIO ESTADUAL RUBEN BERTA</option>
+    
+      <option value="COLEGIO LUTERANO DA PAZ">COLEGIO LUTERANO DA PAZ</option>
+    
+      <option value="COLEGIO MARISTA SAO PEDRO">COLEGIO MARISTA SAO PEDRO</option>
+    
+      <option value="COLEGIO MESQUITA">COLEGIO MESQUITA</option>
+    
+      <option value="COLEGIO ROMANO SAO MATEUS">COLEGIO ROMANO SAO MATEUS</option>
+    
+      <option value="COLEGIO ROMANO SENHOR BOM JESUS">COLEGIO ROMANO SENHOR BOM JESUS</option>
+    
+      <option value="COLEGIO STELLA MARIS">COLEGIO STELLA MARIS</option>
+    
+      <option value="EEEB ALMIRANTE BACELAR">EEEB ALMIRANTE BACELAR</option>
+    
+      <option value="EEEB APELES PORTO ALEGRE">EEEB APELES PORTO ALEGRE</option>
+    
+      <option value="EEEB DOLORES ALCARAZ CALDAS">EEEB DOLORES ALCARAZ CALDAS</option>
+    
+      <option value="EEEB JULIO CESAR RIBEIRO DE SOUZA">EEEB JULIO CESAR RIBEIRO DE SOUZA</option>
+    
+      <option value="EEEB MONSENHOR LEOPOLDO HOFF">EEEB MONSENHOR LEOPOLDO HOFF</option>
+    
+      <option value="EEEB PROF GENTIL VIEGAS CARDOSO">EEEB PROF GENTIL VIEGAS CARDOSO</option>
+    
+      <option value="EEEM 1 DE MAIO">EEEM 1 DE MAIO</option>
+    
+      <option value="EEEM BALTAZAR DE OLIVEIRA GARCIA">EEEM BALTAZAR DE OLIVEIRA GARCIA</option>
+
+                        </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                                <label for="estado">Bairro do Colégio*</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text"
+                                name="bescola"
+                                id="bescola"
+                                size="60"
+                                max="30"
+                                class="form_text"
+                                required/>
+                            </td>
+                        </tr>
+
+                        <tr>
+                        <td>
+                        </br>
+                        <label for="ano">Ano*</label></td>
+                    </tr>
+                    <tr>
+                        <td>
+                    <select
+                      id="ano"
+                      data-use-type="STRING"
+                      name="uf"
+                      required="required"
+                    >
+                      <option value="">
+                        Selecione
+                      </option>
+                                    
+                                      <option value="Primeiro ano">Primeiro ano</option>
+                                    
+                                      <option value="Segundo ano">Segundo ano</option>
+                                    
+                                      <option value="Terceiro ano">Terceiro ano</option>
+                                    
+                                      <option value="Outros">Outros</option>
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao1">Sou bastante autêntico e digo aquilo que penso.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao1"
+                                data-use-type="STRING"
+                                name="tipo_realistico[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao2">Sou instrospectivo, penso muito antes de me expor.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao2"
+                                data-use-type="STRING"
+                                name="tipo_realistico[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                          
+                            <td>
+                            </br>
+
+                            <label for="questao3">Questões intelectuais profundas não me interessam.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao3"
+                                data-use-type="STRING"
+                                name="tipo_realistico[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao4">Sou persistente e não desisto até atingir meus objetivos.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao4"
+                                data-use-type="STRING"
+                                name="tipo_realistico[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao5">As pessoas podem contar comigo. Sou bastante estável em minhas ações.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao5"
+                                data-use-type="STRING"
+                                name="tipo_realistico[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao6">Gosto de trabalhar com materiais, com as mãos, objetos e instrumentos.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao6"
+                                data-use-type="STRING"
+                                name="tipo_realistico[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao7">Consigo aguentar por um bom tempo uma atividade física ou intelectual.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao7"
+                                data-use-type="STRING"
+                                name="tipo_realistico[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao8">Dou muito valor para o dinheiro.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao8"
+                                data-use-type="STRING"
+                                name="tipo_realistico[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr></tr>
+                            <td>
+                            </br>
+
+                            <label for="questao9">Sei utilizar instrumentos e aparelhos eletrônicos.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao9"
+                                data-use-type="STRING"
+                                name="tipo_realistico[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao10">Aceito bem as regras, limites, ordens e o contexto no qual vivo.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao10"
+                                data-use-type="STRING"
+                                name="tipo_realistico[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                          </br>
+                            <label for="questao11">Gosto de observar, analisar e entender o modo como as coisas, a natureza </br>ou as pessoas funcionam.*</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                              <select
+                                id="questao11"
+                                data-use-type="STRING"
+                                name="tipo_investigativo[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao12">Não sou muito impulsivo, penso antes de agir.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao12"
+                                data-use-type="STRING"
+                                name="tipo_investigativo[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao13">Áreas como matemática ou ciências me atraem. Gosto de estudar um assunto a fundo.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao13"
+                                data-use-type="STRING"
+                                name="tipo_investigativo[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao14">Tenho facilidade para aprender.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao14"
+                                data-use-type="STRING"
+                                name="tipo_investigativo[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao15">Sou racional para tomar uma decisão ou para decidir o melhor caminho a seguir.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao15"
+                                data-use-type="STRING"
+                                name="tipo_investigativo[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao16">Sou muito organizado e detalhista.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao16"
+                                data-use-type="STRING"
+                                name="tipo_investigativo[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao17">Sou capaz de dar respostas precisas sobre datas, valores e descrever bem determinada situação do passado.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao17"
+                                data-use-type="STRING"
+                                name="tipo_investigativo[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao18">Tenho um grande senso crítico. As coisas sempre podem ser melhoradas.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao18"
+                                data-use-type="STRING"
+                                name="tipo_investigativo[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao19">Gosto de tomar minhas próprias decisões, mesmo que seja diferente do pensamento da maioria.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao19"
+                                data-use-type="STRING"
+                                name="tipo_investigativo[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao20">Tenho boa habilidade lógica ou matemática.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao20"
+                                data-use-type="STRING"
+                                name="tipo_investigativo[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao21">É difícil para mim aceitar regras, limites e algo que me é imposto.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao21"
+                                data-use-type="STRING"
+                                name="tipo_artistico[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao22">Para mim, é fácil viver em um ambiente desorganizado e fazer as coisas sem uma lógica.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao22"
+                                data-use-type="STRING"
+                                name="tipo_artistico[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao23">Sou muito sensível. Uso mais a emoção nas minhas decisões.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao23"
+                                data-use-type="STRING"
+                                name="tipo_artistico[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao24">Sou uma pessoa idealista. Acredito que possamos construir um mundo melhor.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao24"
+                                data-use-type="STRING"
+                                name="tipo_artistico[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao25">Gosto de criar, inventar, idealizar e fantasiar.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao25"
+                                data-use-type="STRING"
+                                name="tipo_artistico[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao26">Gosto de causar impacto, provocando, entretendo, seduzindo, encantando as pessoas.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao26"
+                                data-use-type="STRING"
+                                name="tipo_artistico[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao27">Gosto de descobrir novas possibilidades para as coisas e situações da vida.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao27"
+                                data-use-type="STRING"
+                                name="tipo_artistico[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao28">Muitas vezes não penso muito antes de tomar uma decisão, nem meço as consequências.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao28"
+                                data-use-type="STRING"
+                                name="tipo_artistico[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao29">Gosto de me expressar, de representar ou de me mostrar em público.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao29"
+                                data-use-type="STRING"
+                                name="tipo_artistico[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao30">Sou responsável por minhas atitudes e decisões.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao30"
+                                data-use-type="STRING"
+                                name="tipo_artistico[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao31">Gosto de liderar, de organizar ou de mobilizar um grupo em torno de uma causa ou ação.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao31"
+                                data-use-type="STRING"
+                                name="tipo_social[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao32">Gosto de ajudar e colaborar com os outros. Sou leal e gosto de fazer o bem.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao32"
+                                data-use-type="STRING"
+                                name="tipo_social[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao33">Uso a emoção e a sensibilidade para tomar decisões.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao33"
+                                data-use-type="STRING"
+                                name="tipo_social[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao34">Em geral sou uma pessoa agradável e fácil de lidar.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao34"
+                                data-use-type="STRING"
+                                name="tipo_social[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao35">Sou idealista e quero mais da vida.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao35"
+                                data-use-type="STRING"
+                                name="tipo_social[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao36">Questões éticas, de justiça ou bem-estar comum são importantes para mim.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao36"
+                                data-use-type="STRING"
+                                name="tipo_social[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao37">Sou responsável. Podem contar comigo porque sempre correspondo ao esperado.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao37"
+                                data-use-type="STRING"
+                                name="tipo_social[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao38">Costumo me dedicar a pessoas, ou a causas, "vestindo a camisa" de um grupo ou clube que eu acredite.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao38"
+                                data-use-type="STRING"
+                                name="tipo_social[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao39">No geral, me relaciono bem com os outros. Tenho facilidade para dialogar.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao39"
+                                data-use-type="STRING"
+                                name="tipo_social[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao40">Gosto de ajudar, ensinar, cuidar, de alguma forma quero ser importante para os outros.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao40"
+                                data-use-type="STRING"
+                                name="tipo_social[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao41">Sou firme e confiante em minhas decisões e não preciso de palpites.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao41"
+                                data-use-type="STRING"
+                                name="tipo_empreendedor[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao42">Muitas vezes consigo convencer as pessoas sobre determinado ponto de vista.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao42"
+                                data-use-type="STRING"
+                                name="tipo_empreendedor[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao43">Sou uma pessoa motivada, autoincentivada, otimista.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao43"
+                                data-use-type="STRING"
+                                name="tipo_empreendedor[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao44">Falo muito. Não desisto facilmente de uma argumentação.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao44"
+                                data-use-type="STRING"
+                                name="tipo_empreendedor[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao45">Dou muito valor aos bens materiais. Gosto de comprar e, às vezes, até de demonstrar aos outros minhas conquistas, meus bens materiais, minha sabedoria e meus talentos.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao45"
+                                data-use-type="STRING"
+                                name="tipo_empreendedor[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao46">Tomo decisões rapidamente. Ajo sem refletir muito. Chego a ser impulsivo.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao46"
+                                data-use-type="STRING"
+                                name="tipo_empreendedor[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao47">Gosto de estar no meio das pessoas, especialmente para mostrar a elas o modo como penso.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao47"
+                                data-use-type="STRING"
+                                name="tipo_empreendedor[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao48">Gosto muito de aventuras, de me arriscar e de desafios.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao48"
+                                data-use-type="STRING"
+                                name="tipo_empreendedor[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao49">Estou sempre procurando novas oportunidades, novos caminhos a seguir.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao49"
+                                data-use-type="STRING"
+                                name="tipo_empreendedor[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao50">Prefiro ser o dono de um negócio do que trabalhar para alguém.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao50"
+                                data-use-type="STRING"
+                                name="tipo_empreendedor[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao51">Aceito bem as regras e o contexto no qual vivo. Gosto de limites claros.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+
+                              <select
+                                id="questao51"
+                                data-use-type="STRING"
+                                name="tipo_convencional[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao52">Sou introvertido, me resguardo e não me exponho muito.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao52"
+                                data-use-type="STRING"
+                                name="tipo_convencional[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao53">Cuido de minhas coisas e gosto de conservá-las.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao53"
+                                data-use-type="STRING"
+                                name="tipo_convencional[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao54">Sou bem calmo e tenho bom equilíbrio emocional.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao54"
+                                data-use-type="STRING"
+                                name="tipo_convencional[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao55">Prefiro ter um plano de ação, uma rotina definida de trabalho.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao55"
+                                data-use-type="STRING"
+                                name="tipo_convencional[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao56">Sou um tipo de pessoa estável, confiável, adequada á realidade.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao56"
+                                data-use-type="STRING"
+                                name="tipo_convencional[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao57">Respeito a ética, guardo segredos, cumpro com meus combinados.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao57"
+                                data-use-type="STRING"
+                                name="tipo_convencional[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao58">Sou muito organizado e detalhista nas coisas. Eficácia é muito importante para mim.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao58"
+                                data-use-type="STRING"
+                                name="tipo_convencional[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao59">Eu vou até o fim em meus objetivos. Não desisto até atingi-los.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao59"
+                                data-use-type="STRING"
+                                name="tipo_convencional[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </br>
+
+                            <label for="questao60">Gosto de satisfazer os outros em relação aquilo que me pedem.*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              <select
+                                id="questao60"
+                                data-use-type="STRING"
+                                name="tipo_convencional[]"
+                                required="required"
+                              >
+                              
+                                <option value="">
+                                  Selecione
+                                </option>
+                                
+                                  <option value =0>0 - Nada</option>
+                                
+                                  <option value =1>1 - Às vezes</option>
+                                
+                                  <option value =2>2 - Frequentemente</option>
+                                
+                                  <option value =3>3 - Sou eu!</option>
+                                
+                              </select>
+
+                            </tr>
+
+                            <tr>
+                              <td>
+                              </br>
+
+
+                              <label for="questao61" >
+                                <span id="math_expression">1 + 1 = ?</span>
+                              </label>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                              <input
+                                id="questao61"
+                                name="questao61"
+                                size="60"
+                                type="text"
+                                
+                              >
+                              </td>
+                              </tr>
+
+                              <tr>
+                                <td>
+                                </br>
+                                  <input id="submit" type="submit" position style="width: 250px" value="Enviar">
+                                </td>
+                              </tr>                                                                            
+        </table>
+      </div>
+    </br>
+  </br>
+</br>
+      <div id="rodape">
+          © Todos os direitos reservador à Fábio Santos.
+      </div>
+
+        </form>
+
+    
+    
+</body>
+</html>
